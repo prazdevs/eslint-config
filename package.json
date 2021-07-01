@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.29.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.3"
+  }
+}
