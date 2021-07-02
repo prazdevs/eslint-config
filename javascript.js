@@ -1,12 +1,23 @@
 module.exports = {
   env: {
     es6: true,
-    broswser: true,
-    node: true
+    browser: true,
+    node: true,
   },
   extends: [
     'standard',
+    'plugin:import/recommended',
   ],
+  plugins: [
+
+  ],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.mjs', '.ts', '.d.ts'],
+      },
+    },
+  },
   rules: {
     // possible errors
     'no-cond-assign': ['error', 'always'],
@@ -23,10 +34,11 @@ module.exports = {
     'no-case-declarations': 'error',
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
+    'no-return-assign': 'error',
     'no-return-await': 'error',
     'no-void': 'error',
     'no-with': 'error',
-
+    'require-await': 'error',
 
     // variables
     'no-unused-vars': 'warn',
@@ -35,7 +47,7 @@ module.exports = {
     'array-bracket-newline': ['error', 'consistent'],
     'array-bracket-spacing': ['error', 'never'],
     'block-spacing': ['error', 'always'],
-    'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'camelcase': 'off',
     'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': ['error', { before: false, after: true }],
@@ -43,8 +55,9 @@ module.exports = {
     'func-call-spacing': ['error', 'never'],
     'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 'first', outerIIFEBody: 1 }],
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement'],
-    'object-curly-newline': ['error', { 'consistent': true }],
+    'object-curly-newline': ['error', { consistent: true }],
     'object-curly-spacing': ['error', 'always'],
+    'operator-linebreak': ['error', 'before'],
     'quote-props': ['error', 'consistent-as-needed'],
     'quotes': ['error', 'single'],
     'semi': ['error', 'never'],
@@ -52,7 +65,7 @@ module.exports = {
 
     // ecmascript 6
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: false }],
-    'generator-star-spacing': ['error', { before: false, after: true }], 
+    'generator-star-spacing': ['error', { before: false, after: true }],
     'no-var': 'error',
     'object-shorthand': ['error', 'always', { ignoreConstructors: false, avoidQuotes: true }],
     'prefer-arrow-callback': ['error', { allowNamedFunctions: false, allowUnboundThis: true }],
@@ -61,5 +74,5 @@ module.exports = {
     'prefer-spread': 'error',
     'prefer-template': 'error',
     'template-curly-spacing': ['error', 'never'],
-  }
+  },
 }
