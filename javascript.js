@@ -7,6 +7,8 @@ module.exports = {
   extends: [
     'standard',
     'plugin:import/recommended',
+    'plugin:yml/standard',
+    'plugin:jsonc/recommended-with-json',
   ],
   plugins: [
 
@@ -74,5 +76,56 @@ module.exports = {
     'prefer-spread': 'error',
     'prefer-template': 'error',
     'template-curly-spacing': ['error', 'never'],
+
+    // yml
+    'yml/sort-keys': 'error',
+
+    // jsonc
+    'jsonc/array-bracket-newline': ['error', 'consistent'],
+    'jsonc/array-bracket-spacing': ['error', 'never'],
+    'jsonc/comma-style': ['error', 'last'],
+    'jsonc/indent': ['error', 2],
+    'jsonc/key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'strict' }],
+    'jsonc/object-curly-newline': ['error', { consistent: true }],
+    'jsonc/object-curly-spacing': ['error', 'always'],
+    'jsonc/sort-keys': 'error',
   },
+  overrides: [
+    {
+      files: ['package.json'],
+      parser: 'jsonc-eslint-parser',
+      rules: {
+        'jsonc/sort-keys': [
+          'error',
+          {
+            pathPattern: '^$',
+            order: [
+              'name',
+              'version',
+              'description',
+              'keywords',
+              'repository',
+              'private',
+              'license',
+              'author',
+              'main',
+              'module',
+              'types',
+              'files',
+              'bin',
+              'scripts',
+              'peerDependencies',
+              'peerDependenciesMeta',
+              'dependencies',
+              'devDependencies',
+            ],
+          },
+          {
+            pathPattern: '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
+            order: { type: 'asc' },
+          },
+        ],
+      },
+    },
+  ],
 }
