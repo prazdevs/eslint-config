@@ -11,7 +11,7 @@ module.exports = {
     'plugin:jsonc/recommended-with-json',
   ],
   plugins: [
-
+    'unicorn',
   ],
   settings: {
     'import/resolver': {
@@ -56,6 +56,7 @@ module.exports = {
     'comma-style': ['error', 'last'],
     'func-call-spacing': ['error', 'never'],
     'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 'first', outerIIFEBody: 1 }],
+    'no-lonely-if': 'error',
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement'],
     'object-curly-newline': ['error', { consistent: true }],
     'object-curly-spacing': ['error', 'always'],
@@ -89,6 +90,33 @@ module.exports = {
     'jsonc/object-curly-newline': ['error', { consistent: true }],
     'jsonc/object-curly-spacing': ['error', 'always'],
     'jsonc/sort-keys': 'error',
+
+    // unicorn
+    'unicorn/better-regex': 'error',
+    'unicorn/consistent-destructuring': 'error',
+    'unicorn/consistent-function-scoping': 'warn',
+    'unicorn/empty-brace-spaces': 'error',
+    'unicorn/error-message': 'warn',
+    'unicorn/no-abusive-eslint-disable': 'error',
+    'unicorn/no-instanceof-array': 'error',
+    'unicorn/no-lonely-if': 'error',
+    'unicorn/no-new-array': 'error',
+    'unicorn/no-new-buffer': 'error',
+    'unicorn/no-unreadable-array-destructuring': 'error',
+    'unicorn/no-unsafe-regex': 'warn',
+    // TODO 'unicorn/no-useless-length-check': 'error',
+    'unicorn/no-zero-fractions': 'error',
+    'unicorn/number-literal-case': 'error',
+    'unicorn/prefer-array-find': 'error',
+    'unicorn/prefer-array-index-of': 'error',
+    'unicorn/prefer-array-some': 'error',
+    'unicorn/prefer-date-now': 'error',
+    'unicorn/prefer-default-parameters': 'error',
+    'unicorn/prefer-includes': 'error',
+    'unicorn/prefer-negative-index': 'error',
+    'unicorn/prefer-prototype-methods': 'error',
+    'unicorn/prefer-string-starts-ends-with': 'error',
+    'unicorn/prefer-type-error': 'error',
   },
   overrides: [
     {
