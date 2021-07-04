@@ -9,6 +9,7 @@ module.exports = {
   ],
   rules: {
     'vue/max-attributes-per-line': ['error', { singleline: 2 }],
+    'vue/max-len': 'error',
   },
   overrides: [
     {
