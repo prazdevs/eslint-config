@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "@prazdevs/eslint-config-javascript": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
