@@ -1,8 +1,8 @@
 {
   "name": "@prazdevs/eslint-config-typescript",
   "version": "1.0.5",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
   "publishConfig": {
     "access": "public"
   },

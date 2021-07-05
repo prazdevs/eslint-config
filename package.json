@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-praz-repo",
   "version": "1.0.2",
-  "license": "MIT",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "lint": "eslint --fix .",
-    "release": "lerna publish -m ':bookmark: release'"
+    "release": "lerna publish -m ':bookmark: release %s'"
   },
   "devDependencies": {
-    "@prazdevs/eslint-config": "^1.0.4",
+    "@prazdevs/eslint-config": "^1.0.5",
     "eslint": "^7.30.0",
     "lerna": "^4.0.0",
     "typescript": "^4.3.5"
