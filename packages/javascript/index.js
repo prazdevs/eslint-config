@@ -46,17 +46,9 @@ module.exports = {
     'no-unused-vars': 'warn',
 
     // stylistic issues
-    'array-bracket-newline': ['error', 'consistent', { multiline: true }],
+    'array-bracket-newline': ['error', 'consistent'],
     'array-bracket-spacing': ['error', 'never'],
-    'array-element-newline': [
-      'error',
-      'consistent',
-      {
-        multiline: true,
-        ArrayExpression: 'consistent',
-        ArrayPattern: 'consistent',
-      },
-    ],
+    'array-element-newline': ['error', 'consistent'],
     'block-spacing': ['error', 'always'],
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'camelcase': 'off',
