@@ -13,7 +13,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@prazdevs/eslint-config-typescript": "^1.0.4",
+    "@prazdevs/eslint-config-typescript": "^1.0.5",
     "eslint-plugin-vue": "^7.12.1",
     "eslint-plugin-vuejs-accessibility": "^0.6.2"
   },

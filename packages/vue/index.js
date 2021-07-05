@@ -1,11 +1,7 @@
 module.exports = {
   extends: [
-    '@prazdevs/eslint-config-typescript',
     'plugin:vue/vue3-recommended',
-    'plugin:vuejs-accessibility/recommended',
-  ],
-  plugins: [
-    'vuejs-accessibility',
+    '@prazdevs/eslint-config-typescript',
   ],
   rules: {
     'vue/max-attributes-per-line': ['error', { singleline: 2 }],
@@ -14,6 +10,8 @@ module.exports = {
   overrides: [
     {
       files: ['*.vue'],
+      plugins: ['vuejs-accessibility'],
+      extends: ['plugin:vuejs-accessibility/recommended'],
       parser: 'vue-eslint-parser',
       parserOptions: {
         parser: '@typescript-eslint/parser',

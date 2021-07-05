@@ -13,7 +13,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@prazdevs/eslint-config-vue": "^1.0.4"
+    "@prazdevs/eslint-config-vue": "^1.0.5"
   },
   "devDependencies": {
     "eslint": "^7.29.0"

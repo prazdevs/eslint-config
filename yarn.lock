@@ -1122,10 +1122,10 @@
   dependencies:
     "@octokit/openapi-types" "^8.2.0"
 
-"@prazdevs/eslint-config-javascript@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-javascript/-/eslint-config-javascript-1.0.2.tgz#aef1dc5a46329bb26d53c11709ce2d5518c4e792"
-  integrity sha512-ILJ3l5SGA+bCSq6WDWx2AAEUSfoUHLI+bsTzM4Kv5pNvnr+F64gS1sbdQ06LqPHNCAsUl3cGg0TnOoQ4cy9Qlg==
+"@prazdevs/eslint-config-javascript@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-javascript/-/eslint-config-javascript-1.0.4.tgz#cefce3c2161da0fc343b23633df34ec807e00be1"
+  integrity sha512-5GUcgQHDg+NdkoXhkeKBJT5E/XWhJ8lqPEG9RLttfDqcGAaKym6qZfAt5+HNnV1R8WRIk2cQmBwYSs/Efo5ybg==
   dependencies:
     eslint-config-standard "^16.0.3"
     eslint-plugin-import "^2.23.4"
@@ -1134,32 +1134,33 @@
     eslint-plugin-promise "^5.1.0"
     eslint-plugin-unicorn "^34.0.1"
     eslint-plugin-yml "^0.9.0"
+    jsonc-eslint-parser "^1.1.0"
     yaml-eslint-parser "^0.3.2"
 
-"@prazdevs/eslint-config-typescript@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-typescript/-/eslint-config-typescript-1.0.2.tgz#be831124eeff639d0878dbdfe7c4112f3adb9601"
-  integrity sha512-6nxzm29+RSy7DzKyq1ExIT/RZ5Hkcwpi/6p8ML8DBWFOBxjkv5bQ3CX/YhY2nAzBOLEBqD1BYJlyxyIqlaSH9w==
+"@prazdevs/eslint-config-typescript@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-typescript/-/eslint-config-typescript-1.0.4.tgz#5e2539b3c6d1d4978fd5349e528cfa70c3535b1d"
+  integrity sha512-vCqAlftNjxqKS5k/4MIbUxK/2RJwqjOdmsVaE/mn2IGbC2gkeih9dy5jpTw7zVmy/IF43konequxcMmpsCfTJA==
   dependencies:
-    "@prazdevs/eslint-config-javascript" "^1.0.2"
+    "@prazdevs/eslint-config-javascript" "^1.0.4"
     "@typescript-eslint/eslint-plugin" "^4.28.1"
     "@typescript-eslint/parser" "^4.28.1"
 
-"@prazdevs/eslint-config-vue@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-vue/-/eslint-config-vue-1.0.2.tgz#1184b8e7549368c75f536d005b8b1fd15c4b031a"
-  integrity sha512-UglFQC6QJOeWycfezG5IX8ZE4o6ubf2mhhHnqqZRNEf6Erlx/wZJoIqq4y3oq2KQC9qMmTsJwxmvmO8Y24Rn1g==
+"@prazdevs/eslint-config-vue@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-vue/-/eslint-config-vue-1.0.4.tgz#5fa22aebef6c07eda4918227864cbd3bf8194732"
+  integrity sha512-9Tbx9NA9ep4iYIHKmA6+QrQODhOylqsCJzhzMPtrRr6bnfNlNfE7Y6T9LCHV31LIUNb5IIbjj5H6reh5tuonMA==
   dependencies:
-    "@prazdevs/eslint-config-typescript" "^1.0.2"
+    "@prazdevs/eslint-config-typescript" "^1.0.4"
     eslint-plugin-vue "^7.12.1"
     eslint-plugin-vuejs-accessibility "^0.6.2"
 
-"@prazdevs/eslint-config@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config/-/eslint-config-1.0.2.tgz#b330c6d74dc10a7c5de3d538bd1c67641dbf46ed"
-  integrity sha512-QZj0fHO+SVkZyOyiz7jTu52vjY5hyrWCfIaEHRtgLiMPsbZwpPzGXlUk1PYLOkrxPbCUupFAC/22f39LdwYpdg==
+"@prazdevs/eslint-config@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config/-/eslint-config-1.0.4.tgz#a49dccea6859e4a96281d3d4f54002dde40602eb"
+  integrity sha512-XgUPS3ofvFdIPLqbJuPozrhFWyQX4BxrsdfqqKjSJSQUmaca6dA/yJpEX0vm5rFSOfupnJ9gu7O8r4NMKK/QAw==
   dependencies:
-    "@prazdevs/eslint-config-vue" "^1.0.2"
+    "@prazdevs/eslint-config-vue" "^1.0.4"
 
 "@tootallnate/once@1":
   version "1.1.2"
