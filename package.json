@@ -4,7 +4,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "lint": "eslint --fix ."
+    "lint": "eslint --fix .",
+    "release": "lerna publish"
   },
   "devDependencies": {
     "@prazdevs/eslint-config": "^1.0.1",
