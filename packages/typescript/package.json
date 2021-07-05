@@ -10,7 +10,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@prazdevs/eslint-config-javascript": "^1.0.3",
+    "@prazdevs/eslint-config-javascript": "^1.0.4",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1"
   },
