@@ -46,8 +46,17 @@ module.exports = {
     'no-unused-vars': 'warn',
 
     // stylistic issues
-    'array-bracket-newline': ['error', 'consistent'],
+    'array-bracket-newline': ['error', 'consistent', { multiline: true }],
     'array-bracket-spacing': ['error', 'never'],
+    'array-element-newline': [
+      'error',
+      'consistent',
+      {
+        multiline: true,
+        ArrayExpression: 'consistent',
+        ArrayPattern: 'consistent',
+      },
+    ],
     'block-spacing': ['error', 'always'],
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'camelcase': 'off',
@@ -63,8 +72,12 @@ module.exports = {
     'max-len': ['error', { tabWidth: 2 }],
     'no-lonely-if': 'error',
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement'],
-    'object-curly-newline': ['error', { consistent: true }],
+    'object-curly-newline': ['error', { consistent: true, multiline: true }],
     'object-curly-spacing': ['error', 'always'],
+    'object-property-newline': [
+      'error',
+      { allowAllPropertiesOnSameLine: true },
+    ],
     'operator-linebreak': ['error', 'before'],
     'quote-props': ['error', 'consistent-as-needed'],
     'quotes': ['error', 'single'],

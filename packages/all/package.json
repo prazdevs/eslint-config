@@ -1,6 +1,6 @@
 {
   "name": "@prazdevs/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "index.js",
   "files": [
@@ -10,7 +10,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@prazdevs/eslint-config-vue": "^1.0.1"
+    "@prazdevs/eslint-config-vue": "^1.0.2"
   },
   "devDependencies": {
     "eslint": "^7.29.0"
