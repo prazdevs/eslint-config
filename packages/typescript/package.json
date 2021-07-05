@@ -3,8 +3,12 @@
   "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
-  "publishConfig": { "access": "public" },
-  "files": ["index.js"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "@prazdevs/eslint-config-javascript": "^1.0.2",
     "@typescript-eslint/eslint-plugin": "^4.28.1",

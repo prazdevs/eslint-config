@@ -3,8 +3,12 @@
   "version": "1.0.2",
   "license": "MIT",
   "main": "index.js",
-  "publishConfig": { "access": "public" },
-  "files": ["index.js"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
