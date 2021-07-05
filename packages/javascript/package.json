@@ -1,6 +1,6 @@
 {
   "name": "@prazdevs/eslint-config-javascript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "index.js",
   "publishConfig": {
