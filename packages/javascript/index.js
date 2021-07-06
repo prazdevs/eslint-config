@@ -98,6 +98,11 @@ module.exports = {
     'prefer-template': 'error',
     'template-curly-spacing': ['error', 'never'],
 
+    // import
+    'import/no-absolute-path': 'off',
+    'import/no-mutable-exports': 'error',
+    'import/no-unresolved': 'off',
+
     // yml
     'yml/sort-keys': 'error',
 

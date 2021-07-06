@@ -10,14 +10,15 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7.30.0"
   },
   "dependencies": {
     "@prazdevs/eslint-config-typescript": "^1.1.0",
-    "eslint-plugin-vue": "^7.12.1",
+    "eslint-plugin-vue": "^7.13.0",
     "eslint-plugin-vuejs-accessibility": "^0.6.2"
   },
   "devDependencies": {
-    "eslint": "^7.29.0"
+    "eslint": "^7.30.0",
+    "vue": "^3.1.4"
   }
 }

@@ -11,8 +11,8 @@
   ],
   "dependencies": {
     "@prazdevs/eslint-config-javascript": "^1.1.0",
-    "@typescript-eslint/eslint-plugin": "^4.28.1",
-    "@typescript-eslint/parser": "^4.28.1"
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2"
   },
   "devDependencies": {
     "eslint": "^7.30.0"
