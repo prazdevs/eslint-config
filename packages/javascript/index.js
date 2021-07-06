@@ -142,7 +142,7 @@ module.exports = {
     'unicorn/prefer-default-parameters': 'error',
     'unicorn/prefer-includes': 'error',
     'unicorn/prefer-negative-index': 'error',
-    'unicorn/prefer-prototype-methods': 'error',
+    // TODO 'unicorn/prefer-prototype-methods': 'error',
     'unicorn/prefer-string-starts-ends-with': 'error',
     'unicorn/prefer-type-error': 'error',
   },
