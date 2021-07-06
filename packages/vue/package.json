@@ -1,6 +1,6 @@
 {
   "name": "@prazdevs/eslint-config-vue",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "main": "index.js",
   "publishConfig": {
@@ -13,7 +13,7 @@
     "eslint": ">=7.30.0"
   },
   "dependencies": {
-    "@prazdevs/eslint-config-typescript": "^1.1.1",
+    "@prazdevs/eslint-config-typescript": "^1.1.2",
     "eslint-plugin-vue": "^7.13.0",
     "eslint-plugin-vuejs-accessibility": "^0.6.2"
   },
