@@ -7,8 +7,8 @@ module.exports = {
   extends: [
     'standard',
     'plugin:import/recommended',
-    'plugin:yml/standard',
     'plugin:jsonc/recommended-with-json',
+    'plugin:yml/standard',
   ],
   plugins: [
     'unicorn',
