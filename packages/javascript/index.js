@@ -75,6 +75,7 @@ module.exports = {
     'quotes': ['error', 'single'],
     'semi': ['error', 'never'],
     'space-before-function-paren': ['error', 'always'],
+    'spaced-comment': ['error', 'always', { markers: ['?', '!', '//', '*'] }],
 
     // ecmascript 6
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: false }],
@@ -99,9 +100,24 @@ module.exports = {
     'template-curly-spacing': ['error', 'never'],
 
     // import
+    'import/first': 'error',
+    'import/newline-after-import': 'error',
     'import/no-absolute-path': 'off',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
+    'import/order': [
+      'error',
+      {
+        'groups': [
+          ['builtin', 'external'],
+          'internal',
+          'type',
+          ['parent', 'sibling', 'index'],
+        ],
+        'alphabetize': { order: 'asc', caseInsensitive: true },
+        'newlines-between': 'always',
+      },
+    ],
 
     // yml
     'yml/sort-keys': 'error',
@@ -185,6 +201,13 @@ module.exports = {
             order: { type: 'asc' },
           },
         ],
+      },
+    },
+    {
+      files: ['*.yml', '*.yaml'],
+      parser: 'yaml-eslint-parser',
+      rules: {
+        'no-multi-spaces': 'off',
       },
     },
   ],
