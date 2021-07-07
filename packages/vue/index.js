@@ -16,6 +16,9 @@ module.exports = {
       parserOptions: {
         parser: '@typescript-eslint/parser',
       },
+      rules: {
+        'vuejs-accessibility/label-has-for': 'off', // ? this shit is buggy AF
+      },
     },
   ],
 }
