@@ -1,6 +1,10 @@
 module.exports = {
+  env: {
+    'cypress/globals': true,
+  },
   extends: [
     'plugin:vue/vue3-recommended',
+    'plugin:cypress/recommended',
     '@prazdevs/eslint-config-typescript',
   ],
   rules: {
@@ -17,7 +21,7 @@ module.exports = {
         parser: '@typescript-eslint/parser',
       },
       rules: {
-        'vuejs-accessibility/label-has-for': 'off', // ? this shit is buggy AF
+        'vuejs-accessibility/label-has-for': 'off', //? this shit is buggy AF
       },
     },
   ],

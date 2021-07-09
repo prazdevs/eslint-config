@@ -1,8 +1,5 @@
 module.exports = {
-  extends: [
-    '@prazdevs/eslint-config-vue',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['@prazdevs/eslint-config-vue', 'plugin:prettier/recommended'],
   rules: {
     'prettier/prettier': [
       'error',

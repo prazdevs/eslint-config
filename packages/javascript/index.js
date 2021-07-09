@@ -10,9 +10,7 @@ module.exports = {
     'plugin:jsonc/recommended-with-json',
     'plugin:yml/standard',
   ],
-  plugins: [
-    'unicorn',
-  ],
+  plugins: ['unicorn'],
   settings: {
     'import/resolver': {
       node: {

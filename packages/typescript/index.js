@@ -21,11 +21,14 @@ module.exports = {
 
     // extension rules
     '@typescript-eslint/brace-style': [
-      'error', '1tbs', { allowSingleLine: true },
+      'error',
+      '1tbs',
+      { allowSingleLine: true },
     ],
     '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
     '@typescript-eslint/comma-spacing': [
-      'error', { before: false, after: true },
+      'error',
+      { before: false, after: true },
     ],
     '@typescript-eslint/func-call-spacing': ['error', 'never'],
     '@typescript-eslint/indent': [
