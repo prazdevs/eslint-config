@@ -2,6 +2,7 @@
   "name": "@prazdevs/eslint-config",
   "version": "2.1.0",
   "license": "MIT",
+  "repository": "https://github.com/prazdevs/eslint-config/",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
