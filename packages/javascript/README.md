@@ -88,7 +88,11 @@ This config adds/modifies the following rules:
 'quotes': ['error', 'single'],
 'semi': ['error', 'never'],
 'space-before-function-paren': ['error', 'always'],
-'spaced-comment': ['error', 'always', { markers: ['?', '!', '//', '*'] }],
+'spaced-comment': [
+  'error',
+  'always',
+  { markers: ['?', '!', '//', '*', '/'] },
+],
 
 // ecmascript 6
 'arrow-parens': ['error', 'as-needed', { requireForBlockBody: false }],
