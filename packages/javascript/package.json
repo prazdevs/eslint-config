@@ -1,9 +1,9 @@
 {
   "name": "@prazdevs/eslint-config-javascript",
   "version": "2.1.0",
+  "repository": "https://github.com/prazdevs/eslint-config/tree/main/packages/javascript",
   "license": "MIT",
   "main": "index.js",
-  "repository": "https://github.com/prazdevs/eslint-config/tree/main/packages/javascript",
   "publishConfig": {
     "access": "public"
   },

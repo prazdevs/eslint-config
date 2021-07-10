@@ -1,151 +1,83 @@
-## Javascript
+<p align="center">
+  <img alt="" src="https://i.imgur.com/AbOtm3T.png">
+</p>
 
-These rules are added by [`@prazdevs/eslint-config-javascript`]().
+<h1 align="center">eslint-config</h1>
+<p align="center">A (very) opinionated ESLint config for JS, TS, Vue, Cypress and A11y with Prettier formatting.</p>
 
-_Note: most stylistic rules are overridden by `prettier` from `@prazdevs/eslint-config`._
 
-```js
-// possible errors
-'no-cond-assign': ['error', 'always'],
-'no-console': 'warn',
-'no-constant-condition': 'warn',
-'no-debugger': 'warn',
+<p align="center">
+  <img src="https://img.shields.io/github/package-json/v/prazdevs/eslint-config?style=flat" />
+  <img src="https://img.shields.io/badge/formatted%20with-prettier-F7B93E" />
+  <img src="https://img.shields.io/badge/linted%20with-ESLint-4B32C3" />
+  <img src="https://img.shields.io/github/license/prazdevs/use-persistent-stopwatch?style=flat" />
+</p>
 
-// best practices
-'array-callback-return': 'error',
-'block-scoped-var': 'error',
-'curly': ['error', 'multi-or-nest', 'consistent'],
-'eqeqeq': ['error', 'smart'],
-'no-alert': 'warn',
-'no-case-declarations': 'error',
-'no-multi-spaces': 'error',
-'no-multi-str': 'error',
-'no-return-assign': 'error',
-'no-return-await': 'error',
-'no-void': 'error',
-'no-with': 'error',
-'require-await': 'error',
+## ✨ Features
 
-// variables
-'no-unused-vars': 'warn',
+- Supports linting and formatting of multiple files (`js`, `ts`, `vue`, `json`, `yaml`).
+- Strong and consistent rules to prevent errors and not bother with style questions.
 
-// stylistic issues
-'array-bracket-newline': ['error', 'consistent'],
-'array-bracket-spacing': ['error', 'never'],
-'array-element-newline': ['error', 'consistent'],
-'block-spacing': ['error', 'always'],
-'brace-style': ['error', '1tbs', { allowSingleLine: true }],
-'camelcase': 'off',
-'comma-dangle': ['error', 'always-multiline'],
-'comma-spacing': ['error', { before: false, after: true }],
-'comma-style': ['error', 'last'],
-'func-call-spacing': ['error', 'never'],
-'indent': [
-  'error',
-  2,
-  { SwitchCase: 1, VariableDeclarator: 'first', outerIIFEBody: 1 },
-],
-'max-len': ['error', { tabWidth: 2 }],
-'no-lonely-if': 'error',
-'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement'],
-'object-curly-newline': ['error', { consistent: true, multiline: true }],
-'object-curly-spacing': ['error', 'always'],
-'object-property-newline': [
-  'error',
-  { allowAllPropertiesOnSameLine: true },
-],
-'operator-linebreak': ['error', 'before'],
-'quote-props': ['error', 'consistent-as-needed'],
-'quotes': ['error', 'single'],
-'semi': ['error', 'never'],
-'space-before-function-paren': ['error', 'always'],
-'spaced-comment': ['error', 'always', { markers: ['?', '!', '//', '*'] }],
+## 🧱 Prerequisites
 
-// ecmascript 6
-'arrow-parens': ['error', 'as-needed', { requireForBlockBody: false }],
-'generator-star-spacing': ['error', { before: false, after: true }],
-'no-var': 'error',
-'object-shorthand': [
-  'error',
-  'always',
-  { ignoreConstructors: false, avoidQuotes: true },
-],
-'prefer-arrow-callback': [
-  'error',
-  { allowNamedFunctions: false, allowUnboundThis: true },
-],
-'prefer-const': [
-  'error',
-  { destructuring: 'any', ignoreReadBeforeAssign: true },
-],
-'prefer-rest-params': 'error',
-'prefer-spread': 'error',
-'prefer-template': 'error',
-'template-curly-spacing': ['error', 'never'],
+- This config is made primarily to be used with Vue and TypeScript, so you will need `typescript` installed as a dependency for the config to load properly.
 
-// import
-'import/first': 'error',
-'import/newline-after-import': 'error',
-'import/no-absolute-path': 'off',
-'import/no-mutable-exports': 'error',
-'import/no-unresolved': 'off',
-'import/order': [
-  'error',
-  {
-    'groups': [
-      ['builtin', 'external'],
-      'internal',
-      'type',
-      ['parent', 'sibling', 'index'],
-    ],
-    'alphabetize': { order: 'asc', caseInsensitive: true },
-    'newlines-between': 'always',
-  },
-],
+## ⚙️ Installing
 
-// yml
-'yml/sort-keys': 'error',
-
-// jsonc
-'jsonc/array-bracket-newline': ['error', 'consistent'],
-'jsonc/array-bracket-spacing': ['error', 'never'],
-'jsonc/comma-style': ['error', 'last'],
-'jsonc/indent': ['error', 2],
-'jsonc/key-spacing': [
-  'error',
-  { beforeColon: false, afterColon: true, mode: 'strict' },
-],
-'jsonc/object-curly-newline': ['error', { consistent: true }],
-'jsonc/object-curly-spacing': ['error', 'always'],
-'jsonc/sort-keys': 'error',
-
-// unicorn
-'unicorn/better-regex': 'error',
-'unicorn/consistent-destructuring': 'error',
-'unicorn/consistent-function-scoping': 'warn',
-'unicorn/empty-brace-spaces': 'error',
-'unicorn/error-message': 'warn',
-'unicorn/no-abusive-eslint-disable': 'error',
-'unicorn/no-instanceof-array': 'error',
-'unicorn/no-lonely-if': 'error',
-'unicorn/no-new-array': 'error',
-'unicorn/no-new-buffer': 'error',
-'unicorn/no-unreadable-array-destructuring': 'error',
-'unicorn/no-unsafe-regex': 'warn',
-// TODO 'unicorn/no-useless-length-check': 'error',
-'unicorn/no-zero-fractions': 'error',
-'unicorn/number-literal-case': 'error',
-'unicorn/prefer-array-find': 'error',
-'unicorn/prefer-array-index-of': 'error',
-'unicorn/prefer-array-some': 'error',
-'unicorn/prefer-date-now': 'error',
-'unicorn/prefer-default-parameters': 'error',
-'unicorn/prefer-includes': 'error',
-'unicorn/prefer-negative-index': 'error',
-'unicorn/prefer-prototype-methods': 'error',
-'unicorn/prefer-string-starts-ends-with': 'error',
-'unicorn/prefer-type-error': 'error',
+For Yarn users:
+```sh
+yarn add -D eslint prettier @prazdevs/eslint-config
 ```
-___
+For Npm users:
+```sh
+npm i -D eslint prettier @prazdevs/eslint-config
+```
 
-## Typescript
+## 🚀 Usage
+
+Add the following to your `.eslintrc` file:
+```json
+{
+  "extends": "@prazdevs"
+}
+```
+If you are a VSCode user, I recommend adding the following to your `settings.json` (workspace settings might be more suitable):
+```json
+{
+  ...
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+    "eslint.validate": [
+    "json",
+    "yaml"
+  ],
+  ...
+}
+```
+With the [Prettier ESLint extension](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint), your files should be properly linted and you should get wanings/errors. Saving will also apply formatting and linting auto-fixes through ESLint's `--fix`.
+
+
+## 🔨 Additional configs and rules
+
+Not interested in Prettier formatting? Not using Vue? This config is based on other configs in a chained way (think of matryoshkas). You will find documentation on rules and plugins on each config's repo.
+
+- [@prazdevs/eslint-config](https://github.com/prazdevs/eslint-config/tree/main/packages/global) : Prettier formatting  
+_(extends)_
+- [@prazdevs/eslint-config-vue](https://github.com/prazdevs/eslint-config/tree/main/packages/vue) : Vue, Cypress  
+_(extends)_
+- [@prazdevs/eslint-config-typescript](https://github.com/prazdevs/eslint-config/tree/main/packages/typescript) : TypeScript  
+_(extends)_
+- [@prazdevs/eslint-config-javascript](https://github.com/prazdevs/eslint-config/tree/main/packages/javascript) : JavaScript, JSON, YAML
+
+## 👤 About the author
+
+Feel free to contact me:
+
+- <a href="https://twitter.com/prazdevs"><img src="https://img.shields.io/twitter/follow/prazdevs?style=social" /><a/>
+- <img src="https://img.shields.io/badge/Discord-PraZ%234184-darkgrey?labelColor=7289DA&logo=discord&logoColor=white&style=flat" />
+
+## 📝 Licence
+
+Copyright © 2021 [Sacha Bouillez](https://github.com/prazdevs).<br />
+This project is under [MIT](https://github.com/prazdevs/eslint-config/blob/main/LICENCE) license.
