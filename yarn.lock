@@ -1122,10 +1122,10 @@
   dependencies:
     "@octokit/openapi-types" "^8.2.1"
 
-"@prazdevs/eslint-config-javascript@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-javascript/-/eslint-config-javascript-2.0.1.tgz#56dde621b168752c256cceda556469654e31861c"
-  integrity sha512-XxcEnsacAcS6Kp+VgwM1eXQBsRJ/gKAbteL1iBj1ghTHlgYo0xl5RaLSl/bP1WBDcEhU9c7o4tTRN0bVvMd9Cw==
+"@prazdevs/eslint-config-javascript@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-javascript/-/eslint-config-javascript-2.1.2.tgz#0f205d5efd97364c04d61a176de60cc8738a3bda"
+  integrity sha512-INIgIG3oX8dB/NszWEpTIrRkXvMwTgfieYShQctDOsaecusezyApinrmh514LS50rXziFs8oMbP89XpgwHVDrA==
   dependencies:
     eslint-config-standard "^16.0.3"
     eslint-plugin-import "^2.23.4"
@@ -1137,30 +1137,31 @@
     jsonc-eslint-parser "^1.1.0"
     yaml-eslint-parser "^0.3.2"
 
-"@prazdevs/eslint-config-typescript@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-typescript/-/eslint-config-typescript-2.0.1.tgz#7c32bdcf59a8cae9dec33c2082dbb6c71e568e80"
-  integrity sha512-nmGQgr1i36PDDr8kLCVthc061A1TSCKfhpRvKA7vmFhq63j955O3vK6INuUYq44a/dQXRC7O5++Z9KgMdrQh3g==
+"@prazdevs/eslint-config-typescript@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-typescript/-/eslint-config-typescript-2.1.2.tgz#10a7c308608161d51fa705b4dae8cbeee282a011"
+  integrity sha512-M5yxTYC/gW/xONVkWT4JfF53iX1keqpWQVx87ipcbmf4fME3A1rTKFFaLny0++vCzE+ZYZQWvQBLAo8yGXCTiQ==
   dependencies:
-    "@prazdevs/eslint-config-javascript" "^2.0.1"
+    "@prazdevs/eslint-config-javascript" "^2.1.2"
     "@typescript-eslint/eslint-plugin" "^4.28.2"
     "@typescript-eslint/parser" "^4.28.2"
 
-"@prazdevs/eslint-config-vue@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-vue/-/eslint-config-vue-2.0.1.tgz#b0b1afb06ebe2f5ae05209b501086ca38a8ed98e"
-  integrity sha512-Mkd8TXf/LxMvwozxzdMwXyngcXMWDX5RPdyrjneUi+H6qv9PNC/i0nMvhKlpnvboY+LL5WTUDql3YdMP4WZqLQ==
+"@prazdevs/eslint-config-vue@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config-vue/-/eslint-config-vue-2.1.2.tgz#790a72b6e565902a2cc384382b15cdea77807b9b"
+  integrity sha512-lEZYH3NKNhETKtj+41tDdOthKAMY/RMOwS+hdM0MN2Pu60yXZH+Jr0NuwLx9PQWOzeXtaMK6TkyD7UX2m8RF3w==
   dependencies:
-    "@prazdevs/eslint-config-typescript" "^2.0.1"
+    "@prazdevs/eslint-config-typescript" "^2.1.2"
+    eslint-plugin-cypress "^2.11.3"
     eslint-plugin-vue "^7.13.0"
     eslint-plugin-vuejs-accessibility "^0.6.2"
 
-"@prazdevs/eslint-config@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config/-/eslint-config-2.0.1.tgz#e3630e2a9c922aa9d3418eea52f4359a723d7af8"
-  integrity sha512-CKRBhGW38ssVxpO8MhqGafdv29Iz/Q50F0B7/cjW/zmKoK1afVmbLiVC2ENEqhrcuGrDek8lpclSpzaUd7dF7g==
+"@prazdevs/eslint-config@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@prazdevs/eslint-config/-/eslint-config-2.1.2.tgz#6c3b016260fbd3a1e4b57d1819259e2cc30b8ae9"
+  integrity sha512-qIaoOymzQYYiDddjzYgUtQyLIZBqQoxln1JQkF1VmT5LEBa5JAQu75ZTj5BjNcIbXOA8hX4IpLD4yl/MZwSqnw==
   dependencies:
-    "@prazdevs/eslint-config-vue" "^2.0.1"
+    "@prazdevs/eslint-config-vue" "^2.1.2"
     eslint-config-prettier "^8.3.0"
     eslint-plugin-prettier "^3.4.0"
 
@@ -2097,9 +2098,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.3.723:
-  version "1.3.771"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.771.tgz#c4aa601e6420e11926095f75fe803956a1b4bd81"
-  integrity sha512-zHMomTqkpnAD9W5rhXE1aiU3ogGFrqWzdvM4C6222SREiqsWQb2w0S7P2Ii44qCaGimmAP1z+OydllM438uJyA==
+  version "1.3.772"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.772.tgz#fd1ed39f9f3149f62f581734e4f026e600369479"
+  integrity sha512-X/6VRCXWALzdX+RjCtBU6cyg8WZgoxm9YA02COmDOiNJEZ59WkQggDbWZ4t/giHi/3GS+cvdrP6gbLISANAGYA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -2218,6 +2219,13 @@ eslint-module-utils@^2.6.1:
   dependencies:
     debug "^3.2.7"
     pkg-dir "^2.0.0"
+
+eslint-plugin-cypress@^2.11.3:
+  version "2.11.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-2.11.3.tgz#54ee4067aa8192aa62810cd35080eb577e191ab7"
+  integrity sha512-hOoAid+XNFtpvOzZSNWP5LDrQBEJwbZwjib4XJ1KcRYKjeVj0mAmPmucG4Egli4j/aruv+Ow/acacoloWWCl9Q==
+  dependencies:
+    globals "^11.12.0"
 
 eslint-plugin-es@^3.0.0:
   version "3.0.1"
@@ -2791,7 +2799,7 @@ glob@^7.1.1, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-globals@^11.1.0:
+globals@^11.1.0, globals@^11.12.0:
   version "11.12.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
