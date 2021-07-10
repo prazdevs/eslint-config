@@ -5,6 +5,7 @@ module.exports = {
       'error',
       {
         arrowParens: 'avoid',
+        endOfLine: 'auto',
         proseWrap: 'always',
         quoteProps: 'consistent',
         semi: false,
