@@ -44,7 +44,6 @@ Add the following to your `.eslintrc` file:
 If you are a VSCode user, I recommend adding the following to your `settings.json` (workspace settings might be more suitable):
 ```json
 {
-  ...
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -52,7 +51,6 @@ If you are a VSCode user, I recommend adding the following to your `settings.jso
     "json",
     "yaml"
   ],
-  ...
 }
 ```
 With the [Prettier ESLint extension](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint), your files should be properly linted and you should get wanings/errors. Saving will also apply formatting and linting auto-fixes through ESLint's `--fix`.
