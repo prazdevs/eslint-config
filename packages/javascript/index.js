@@ -205,12 +205,5 @@ module.exports = {
         ],
       },
     },
-    {
-      files: ['*.yml', '*.yaml'],
-      parser: 'yaml-eslint-parser',
-      rules: {
-        'no-multi-spaces': 'off',
-      },
-    },
   ],
 }

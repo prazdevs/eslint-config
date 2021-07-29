@@ -11,7 +11,7 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=7.30.0"
+    "eslint": ">=7.31.0"
   },
   "dependencies": {
     "eslint-config-standard": "^16.0.3",
@@ -20,9 +20,9 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-unicorn": "^34.0.1",
-    "eslint-plugin-yml": "^0.9.0",
+    "eslint-plugin-yml": "^0.10.0",
     "jsonc-eslint-parser": "^1.1.0",
-    "yaml-eslint-parser": "^0.3.2"
+    "yaml-eslint-parser": "^0.4.1"
   },
   "devDependencies": {
     "eslint": "^7.30.0"
