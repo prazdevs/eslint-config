@@ -11,12 +11,12 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=7.31.0"
+    "eslint": ">=7.32.0"
   },
   "dependencies": {
     "@prazdevs/eslint-config-typescript": "^2.1.5",
     "eslint-plugin-cypress": "^2.11.3",
-    "eslint-plugin-vue": "^7.14.0",
+    "eslint-plugin-vue": "^7.16.0",
     "eslint-plugin-vuejs-accessibility": "^0.7.1"
   },
   "devDependencies": {
