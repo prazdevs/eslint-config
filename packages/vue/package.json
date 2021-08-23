@@ -1,6 +1,6 @@
 {
   "name": "@prazdevs/eslint-config-vue",
-  "version": "2.1.5",
+  "version": "2.2.0",
   "repository": "https://github.com/prazdevs/eslint-config/tree/main/packages/vue",
   "license": "MIT",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "eslint": ">=7.32.0"
   },
   "dependencies": {
-    "@prazdevs/eslint-config-typescript": "^2.1.5",
+    "@prazdevs/eslint-config-typescript": "^2.2.0",
     "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-vue": "^7.16.0",
     "eslint-plugin-vuejs-accessibility": "^0.7.1"

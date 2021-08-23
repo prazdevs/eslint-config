@@ -1,6 +1,6 @@
 {
   "name": "@prazdevs/eslint-config-typescript",
-  "version": "2.1.5",
+  "version": "2.2.0",
   "repository": "https://github.com/prazdevs/eslint-config/tree/main/packages/typescript",
   "license": "MIT",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@prazdevs/eslint-config-javascript": "^2.1.5",
+    "@prazdevs/eslint-config-javascript": "^2.2.0",
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3"
   },
