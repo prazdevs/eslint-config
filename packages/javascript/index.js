@@ -144,6 +144,7 @@ module.exports = {
     'unicorn/empty-brace-spaces': 'error',
     'unicorn/error-message': 'warn',
     'unicorn/no-abusive-eslint-disable': 'error',
+    'unicorn/no-empty-file': 'error',
     'unicorn/no-instanceof-array': 'error',
     'unicorn/no-lonely-if': 'error',
     'unicorn/no-new-array': 'error',
