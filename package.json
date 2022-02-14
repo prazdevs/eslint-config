@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --fix .",
-    "release": "lerna publish -m ':bookmark: release %s'"
+    "release": "lerna publish -m \":bookmark: release %s\""
   },
   "devDependencies": {
     "@prazdevs/eslint-config": "^2.1.2",
