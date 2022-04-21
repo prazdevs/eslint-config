@@ -1,6 +1,6 @@
 {
   "name": "@prazdevs/eslint-config",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "repository": "https://github.com/prazdevs/eslint-config/",
   "license": "MIT",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "prettier": ">=2.3.2"
   },
   "dependencies": {
-    "@prazdevs/eslint-config-vue": "^3.1.0",
+    "@prazdevs/eslint-config-vue": "^3.2.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0"
   },
