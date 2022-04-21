@@ -153,6 +153,7 @@ module.exports = {
     'unicorn/no-unsafe-regex': 'warn',
     'unicorn/no-useless-length-check': 'error',
     'unicorn/no-useless-spread': 'error',
+    'unicorn/no-useless-switch-case': 'error',
     'unicorn/no-zero-fractions': 'error',
     'unicorn/number-literal-case': 'error',
     'unicorn/prefer-array-find': 'error',
